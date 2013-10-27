@@ -1,0 +1,2 @@
+module SkipNoindexHelper
+end

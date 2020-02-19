@@ -21,7 +21,6 @@ module Noindex
       receiver.extend         ClassMethods
       receiver.send :include, InstanceMethods
 
-      receiver.hide_action :noindex
       receiver.noindex only: [ :new, :edit ]
     end
 
